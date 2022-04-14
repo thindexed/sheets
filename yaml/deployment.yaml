@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sheets
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: sheets
+  template:
+    metadata:
+      labels:
+        name: sheets
+    spec:
+      containers:
+      - name: sheets
+        image: <OCIIMAGE>
+        envFrom:
+        - secretRef:
+            name: github-secrets
+        env:
+        - name: DATA_DIR
+          value: "/app/data/"
+        - name: GITHUB_REPO
+          value: sheets
+        - name: GITHUB_ORG
+          value: thindexed
+        resources:
+          limits:
+            cpu: "2"
+            memory: 1Gi
+          requests:
+            cpu: "2"
+            memory: 1Gi

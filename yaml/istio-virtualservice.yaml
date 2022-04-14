@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: sheets
+  namespace: default
+spec:
+  hosts: ["<DOMAIN>"]
+  #hosts: ["app.thindexed.personal.shoot.canary.k8s-hana.ondemand.com"]
+  gateways: [ "gateway-app" ]
+  http:
+    - match:
+      - uri:
+          prefix: "/sheets"
+      rewrite:
+        uri: "/sheets"
+      route:
+        - destination:
+            host: sheets
+
