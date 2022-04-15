@@ -95,6 +95,15 @@ module.exports = {
       })
   },
 
+  hash: function(filePath) {
+    return repo.contents(filePath).fetch()
+  },
+
+  getBlob: function(sha) {
+    console.log(repo.git)
+    return repo.git.blobs(sha).fetch()
+  },
+
   renameFiles: function(fromFiles, toFiles, message) {
     return Promise.all(fromFiles.map((file) => {
       return repo.contents(file).fetch()

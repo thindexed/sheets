@@ -40,6 +40,17 @@ module.exports = {
                 })
         })
 
+        app.get('/sheets/global/share', nocache, (req, res) => {
+            github.hash(path.join(conf.githubGlobalDataDirectory(), req.query.filePath))
+            .then( info => {
+                res.status(200).send({ filePath: info.sha})
+            })
+            .catch(exception => {
+                res.status(403).send("error")
+                console.log(exception)
+            })
+        })
+
         app.get('/sheets/global/image', nocache, (req, res) => {
             filesystem.getBinaryFile(conf.absoluteGlobalDataDirectory(), req.query.filePath, res)
                 .catch(error => {
@@ -55,7 +66,7 @@ module.exports = {
                 filesystem.delete(conf.absoluteGlobalDataDirectory(), fileRelativePath)
                     .then((sanitizedRelativePath) => {
                         let githubPath = path.join(conf.githubGlobalDataDirectory(), sanitizedRelativePath)
-                        return github.deleteDirectory(githubPath, "-delete directory-")
+                        return github.deleteDirectory(githubPath, `delete directory "${fileRelativePath}"` )
                     })
                     .then(() => {
                         res.send("ok")

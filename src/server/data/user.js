@@ -58,7 +58,7 @@ module.exports = {
                 filesystem.delete(conf.absoluteUserDataDirectory(req), fileRelativePath)
                     .then((sanitizedRelativePath) => {
                         let githubPath = path.join(conf.githubUserDataDirectory(req), sanitizedRelativePath)
-                        return github.deleteDirectory(githubPath, "-delete directory-")
+                        return github.deleteDirectory(githubPath, `delete directory "${fileRelativePath}"`)
                     })
                     .then(() => {
                         res.send("ok")
@@ -81,6 +81,17 @@ module.exports = {
                         res.status(403).send("error")
                     })
             }
+        })
+
+        app.get('/sheets/user/share', nocache, (req, res) => {
+            github.hash(path.join(conf.githubUserDataDirectory(req), req.query.filePath))
+            .then( info => {
+                res.status(200).send({ filePath: info.sha})
+            })
+            .catch(exception => {
+                res.status(403).send("error")
+                console.log(exception)
+            })
         })
 
         app.post('/sheets/user/rename', ensureLoggedIn, (req, res) => {

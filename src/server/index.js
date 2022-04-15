@@ -6,6 +6,7 @@ const app = express()
 const http = require('http').Server(app)
 const bodyParser = require('body-parser')
 
+const sharedApi = require("./data/shared")
 const globalApi = require("./data/global")
 const userApi = require("./data/user")
 const conf = require("./configuration")
@@ -20,6 +21,7 @@ const PORT = process.env.PORT || 8080
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}))
 
+sharedApi.init(app)
 globalApi.init(app)
 userApi.init(app)
 
