@@ -85,8 +85,8 @@ module.exports = {
 
         app.get('/sheets/user/share', nocache, (req, res) => {
             github.hash(path.join(conf.githubUserDataDirectory(req), req.query.filePath))
-            .then( info => {
-                res.status(200).send({ filePath: info.sha})
+            .then( sha => {
+                res.status(200).send({ filePath: sha})
             })
             .catch(exception => {
                 res.status(403).send("error")

@@ -96,11 +96,25 @@ module.exports = {
   },
 
   hash: function(filePath) {
-    return repo.contents(filePath).fetch()
+    // it is only possible to use the API for files smaller than 1MB. If the files gets bigger, we get an error with this API, that
+    // we should use the LargeBlob API...unfortunatley we need only the SHA-Hash and not the content 
+    // Workaround: Use the parent directory, fetch the contenbt, pick the files SHA in this response.
+    //
+    // return repo.contents(filePath).fetch() << won't work with bigger files
+
+    // works well event with bigger files
+    let parentDir = path.dirname(filePath)
+    return fetchTree().then( (tree) => {
+      return repo.contents(parentDir).fetch()
+    }).then(function(infos) {
+      let item = infos.items.find( item => item.path===filePath )
+      if(!item)
+        throw "not found"
+      return item.sha;
+    })
   },
 
   getBlob: function(sha) {
-    console.log(repo.git)
     return repo.git.blobs(sha).fetch()
   },
 
