@@ -46,7 +46,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_AND",
+                "type": "digital_gate_IEC60617_12_AND",
                 "id": "dfe56edb-1786-c146-29c1-46f29265a747",
                 "x": 2893.25,
                 "y": 2964.390625,
@@ -57,9 +57,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/AND.shape"
+                  "file": "digital/gate/IEC60617-12/AND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_AND",
+                "cssClass": "digital_gate_IEC60617_12_AND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -82,7 +82,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_OR",
+                "type": "digital_gate_IEC60617_12_OR",
                 "id": "f9ab724a-c653-1686-c015-d36e4cc4f32d",
                 "x": 2864.25,
                 "y": 3007.390625,
@@ -93,9 +93,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/OR.shape"
+                  "file": "digital/gate/IEC60617-12/OR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_OR",
+                "cssClass": "digital_gate_IEC60617_12_OR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -123,7 +123,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_NOT",
+                "type": "digital_gate_IEC60617_12_NOT",
                 "id": "903166bf-afad-0848-70ab-3763cd6f64d1",
                 "x": 2823.25,
                 "y": 3016.390625,
@@ -134,9 +134,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NOT.shape"
+                  "file": "digital/gate/IEC60617-12/NOT.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NOT",
+                "cssClass": "digital_gate_IEC60617_12_NOT",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -164,7 +164,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "521e3e12-10b6-1035-ae11-c2698acee030",
                 "x": 2865.75,
                 "y": 2973.390625,
@@ -175,9 +175,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -200,7 +200,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_NOR",
+                "type": "digital_gate_IEC60617_12_NOR",
                 "id": "45506108-947c-4717-84a9-181ec3831cf5",
                 "x": 2994.75,
                 "y": 3000.390625,
@@ -211,9 +211,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NOR.shape"
+                  "file": "digital/gate/IEC60617-12/NOR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NOR",
+                "cssClass": "digital_gate_IEC60617_12_NOR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -236,7 +236,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "ae17529e-a9a0-c649-98e9-086d91213c08",
                 "x": 2761.75,
                 "y": 2926.390625,
@@ -247,9 +247,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -258,7 +258,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "43cc1d99-c761-f1af-bb1c-f1a587a79569",
                 "x": 2941.75,
                 "y": 2926.390625,
@@ -269,9 +269,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -320,7 +320,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalSource.shape",
+                  "file": "digital/signals/SignalSource.shape",
                   "signalId": "E1"
                 },
                 "cssClass": "signal_SignalSource",
@@ -343,7 +343,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalSource.shape",
+                  "file": "digital/signals/SignalSource.shape",
                   "signalId": "E1"
                 },
                 "cssClass": "signal_SignalSource",
@@ -366,7 +366,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalTarget.shape",
+                  "file": "digital/signals/SignalTarget.shape",
                   "signalId": "A2"
                 },
                 "cssClass": "signal_SignalTarget",
@@ -389,7 +389,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalSource.shape",
+                  "file": "digital/signals/SignalSource.shape",
                   "signalId": "E4"
                 },
                 "cssClass": "signal_SignalSource",
@@ -657,7 +657,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_XOR",
+                "type": "digital_gate_IEC60617_12_XOR",
                 "id": "f4f9f96a-8f88-235c-c8f5-5576e0cde314",
                 "x": 2704.25,
                 "y": 2901.390625,
@@ -668,9 +668,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/XOR.shape"
+                  "file": "digital/gate/IEC60617-12/XOR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_XOR",
+                "cssClass": "digital_gate_IEC60617_12_XOR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -698,7 +698,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_XNOR",
+                "type": "digital_gate_IEC60617_12_XNOR",
                 "id": "32d353bf-a073-d803-deaa-1f4230db0ae7",
                 "x": 2849.25,
                 "y": 3108.390625,
@@ -709,9 +709,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/XNOR.shape"
+                  "file": "digital/gate/IEC60617-12/XNOR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_XNOR",
+                "cssClass": "digital_gate_IEC60617_12_XNOR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -740,7 +740,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "9407c0bf-9403-c362-8602-997ae8a8d1f5",
                 "x": 2680.75,
                 "y": 2937.390625,
@@ -751,9 +751,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -762,7 +762,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "51ce6fdf-6c52-d104-e461-bad1aeeaa4fd",
                 "x": 2914.5,
                 "y": 2937.390625,
@@ -773,9 +773,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -784,7 +784,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "3e675df7-76b6-755c-3a15-86f091955faa",
                 "x": 2796,
                 "y": 2937.390625,
@@ -795,9 +795,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -806,7 +806,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "76714126-2287-b97f-0c41-b361e4785cc6",
                 "x": 3033.75,
                 "y": 2937.390625,
@@ -817,9 +817,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -839,7 +839,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalSource.shape",
+                  "file": "digital/signals/SignalSource.shape",
                   "signalId": "E1"
                 },
                 "cssClass": "signal_SignalSource",
@@ -862,7 +862,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalSource.shape",
+                  "file": "digital/signals/SignalSource.shape",
                   "signalId": "E2"
                 },
                 "cssClass": "signal_SignalSource",
@@ -885,7 +885,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalSource.shape",
+                  "file": "digital/signals/SignalSource.shape",
                   "signalId": "E3"
                 },
                 "cssClass": "signal_SignalSource",
@@ -908,7 +908,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalTarget.shape",
+                  "file": "digital/signals/SignalTarget.shape",
                   "signalId": "E"
                 },
                 "cssClass": "signal_SignalTarget",
@@ -1282,7 +1282,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_NOR",
+                "type": "digital_gate_IEC60617_12_NOR",
                 "id": "5597f92b-bf1f-4701-af91-ad1f00aba7e4",
                 "x": 2722.75,
                 "y": 3028.390625,
@@ -1293,9 +1293,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NOR.shape"
+                  "file": "digital/gate/IEC60617-12/NOR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NOR",
+                "cssClass": "digital_gate_IEC60617_12_NOR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -1304,7 +1304,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NOR",
+                "type": "digital_gate_IEC60617_12_NOR",
                 "id": "5d0a4038-67ed-21e0-465c-1ca4c5226270",
                 "x": 2875.75,
                 "y": 3028.390625,
@@ -1315,9 +1315,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NOR.shape"
+                  "file": "digital/gate/IEC60617-12/NOR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NOR",
+                "cssClass": "digital_gate_IEC60617_12_NOR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -1326,7 +1326,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NOR",
+                "type": "digital_gate_IEC60617_12_NOR",
                 "id": "bb8a7e23-df1b-8b93-5e7a-6e19ca9855a0",
                 "x": 3037.75,
                 "y": 3028.390625,
@@ -1337,9 +1337,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NOR.shape"
+                  "file": "digital/gate/IEC60617-12/NOR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NOR",
+                "cssClass": "digital_gate_IEC60617_12_NOR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -1359,7 +1359,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalSource.shape",
+                  "file": "digital/signals/SignalSource.shape",
                   "signalId": "E1"
                 },
                 "cssClass": "signal_SignalSource",
@@ -1382,7 +1382,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalSource.shape",
+                  "file": "digital/signals/SignalSource.shape",
                   "signalId": "E3"
                 },
                 "cssClass": "signal_SignalSource",
@@ -1405,7 +1405,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalSource.shape",
+                  "file": "digital/signals/SignalSource.shape",
                   "signalId": "E2"
                 },
                 "cssClass": "signal_SignalSource",
@@ -1428,7 +1428,7 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/SignalTarget.shape",
+                  "file": "digital/signals/SignalTarget.shape",
                   "signalId": "Signal_Id"
                 },
                 "cssClass": "signal_SignalTarget",
@@ -1440,7 +1440,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_signal_Low",
+                "type": "digital_signal_Low",
                 "id": "fcfa9b3b-7d5d-bcbf-2f5f-ca234f255c12",
                 "x": 2784.5,
                 "y": 3082.390625,
@@ -1451,9 +1451,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/signals/Low.shape"
+                  "file": "digital/signals/Low.shape"
                 },
-                "cssClass": "circuit_digital_signal_Low",
+                "cssClass": "digital_signal_Low",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,

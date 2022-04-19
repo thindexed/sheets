@@ -88,7 +88,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_AND",
+                "type": "digital_gate_IEC60617_12_AND",
                 "id": "2d5f59a7-97b5-aa67-7a92-54eaaf282d4d",
                 "x": 1016,
                 "y": 475,
@@ -99,9 +99,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/gate/AND.shape"
+                  "file": "gate/AND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_AND",
+                "cssClass": "digital_gate_IEC60617_12_AND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -110,7 +110,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NOT",
+                "type": "digital_gate_IEC60617_12_NOT",
                 "id": "4a6b9c2b-4da9-747a-5757-0f017cf19079",
                 "x": 903,
                 "y": 428,
@@ -121,9 +121,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/gate/NOT.shape"
+                  "file": "gate/NOT.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NOT",
+                "cssClass": "digital_gate_IEC60617_12_NOT",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -161,7 +161,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_buttons_HighLow",
+                "type": "digital_buttons_HighLow",
                 "id": "3382750e-ee18-b883-9586-de8c04516e05",
                 "x": 746,
                 "y": 424.5,
@@ -172,9 +172,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/switch/HighLow.shape"
+                  "file": "switch/HighLow.shape"
                 },
-                "cssClass": "circuit_digital_buttons_HighLow",
+                "cssClass": "digital_buttons_HighLow",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -213,7 +213,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_buttons_HighLow",
+                "type": "digital_buttons_HighLow",
                 "id": "8c2e2d8a-fa45-34da-d730-4711bb874cab",
                 "x": 746,
                 "y": 536,
@@ -224,9 +224,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/switch/HighLow.shape"
+                  "file": "switch/HighLow.shape"
                 },
-                "cssClass": "circuit_digital_buttons_HighLow",
+                "cssClass": "digital_buttons_HighLow",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -265,7 +265,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_display_Led",
+                "type": "digital_display_Led",
                 "id": "d55ba1d0-4c3a-fcc1-9e4e-16d681101834",
                 "x": 1162,
                 "y": 479,
@@ -276,9 +276,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/display/Led.shape"
+                  "file": "display/Led.shape"
                 },
-                "cssClass": "circuit_digital_display_Led",
+                "cssClass": "digital_display_Led",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,

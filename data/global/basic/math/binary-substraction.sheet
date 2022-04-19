@@ -15,7 +15,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "9ec3250f-6cd3-af3b-4ad9-2378d8876510",
                 "x": 2862.75,
                 "y": 2839.796875,
@@ -26,9 +26,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -37,7 +37,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "1246e338-0441-f98a-4c0d-1d1334fecd2b",
                 "x": 3005.75,
                 "y": 2722.796875,
@@ -48,9 +48,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -59,7 +59,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "bbd05682-e50d-8002-b203-41ffc543a74f",
                 "x": 3005.75,
                 "y": 2959.796875,
@@ -70,9 +70,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -81,7 +81,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NAND",
+                "type": "digital_gate_IEC60617_12_NAND",
                 "id": "dd173dc9-017f-00d6-b301-a03cbb3e0454",
                 "x": 3186.75,
                 "y": 2840.796875,
@@ -92,9 +92,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NAND.shape"
+                  "file": "digital/gate/IEC60617-12/NAND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NAND",
+                "cssClass": "digital_gate_IEC60617_12_NAND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -103,7 +103,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NOT",
+                "type": "digital_gate_IEC60617_12_NOT",
                 "id": "996af1b1-650d-d453-3971-cf79e0261864",
                 "x": 3186.25,
                 "y": 2958.796875,
@@ -114,9 +114,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NOT.shape"
+                  "file": "digital/gate/IEC60617-12/NOT.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NOT",
+                "cssClass": "digital_gate_IEC60617_12_NOT",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -125,7 +125,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_buttons_HighLow",
+                "type": "digital_buttons_HighLow",
                 "id": "6c52b148-56ce-59be-8f08-d45fe163c0ad",
                 "x": 2601.5,
                 "y": 2763.796875,
@@ -136,9 +136,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/buttons/HighLow.shape"
+                  "file": "digital/buttons/HighLow.shape"
                 },
-                "cssClass": "circuit_digital_buttons_HighLow",
+                "cssClass": "digital_buttons_HighLow",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -177,7 +177,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_buttons_HighLow",
+                "type": "digital_buttons_HighLow",
                 "id": "65e47020-1f4c-f5f3-2a1d-a3b602b81148",
                 "x": 2601.5,
                 "y": 2915.296875,
@@ -188,9 +188,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/buttons/HighLow.shape"
+                  "file": "digital/buttons/HighLow.shape"
                 },
-                "cssClass": "circuit_digital_buttons_HighLow",
+                "cssClass": "digital_buttons_HighLow",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -229,7 +229,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_display_Led",
+                "type": "digital_display_Led",
                 "id": "20e63fb9-e955-c042-4e53-aecbad5f112f",
                 "x": 3292.5,
                 "y": 2843.796875,
@@ -240,9 +240,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/display/Led.shape"
+                  "file": "digital/display/Led.shape"
                 },
-                "cssClass": "circuit_digital_display_Led",
+                "cssClass": "digital_display_Led",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -280,7 +280,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_display_Led",
+                "type": "digital_display_Led",
                 "id": "e76e8103-3e92-682e-de4e-27d6d2f4e98c",
                 "x": 3292.5,
                 "y": 2960.796875,
@@ -291,9 +291,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/display/Led.shape"
+                  "file": "digital/display/Led.shape"
                 },
-                "cssClass": "circuit_digital_display_Led",
+                "cssClass": "digital_display_Led",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -873,7 +873,7 @@
           "content": {
             "draw2d": [
               {
-                "type": "circuit_digital_gate_IEC60617_12_XOR",
+                "type": "digital_gate_IEC60617_12_XOR",
                 "id": "7272fb89-a71c-bb8a-00c3-a6630b2d88bf",
                 "x": 2895.4375,
                 "y": 2662.796875,
@@ -884,9 +884,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/XOR.shape"
+                  "file": "digital/gate/IEC60617-12/XOR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_XOR",
+                "cssClass": "digital_gate_IEC60617_12_XOR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -895,7 +895,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_AND",
+                "type": "digital_gate_IEC60617_12_AND",
                 "id": "c1c640ff-71ef-3db0-4165-b15a36818654",
                 "x": 2895.84375,
                 "y": 2809.796875,
@@ -906,9 +906,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/AND.shape"
+                  "file": "digital/gate/IEC60617-12/AND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_AND",
+                "cssClass": "digital_gate_IEC60617_12_AND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -917,7 +917,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NOT",
+                "type": "digital_gate_IEC60617_12_NOT",
                 "id": "efae3000-e431-b9f7-effd-ad56f48d5584",
                 "x": 2829.25,
                 "y": 2786.796875,
@@ -928,9 +928,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NOT.shape"
+                  "file": "digital/gate/IEC60617-12/NOT.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NOT",
+                "cssClass": "digital_gate_IEC60617_12_NOT",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -939,7 +939,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_NOT",
+                "type": "digital_gate_IEC60617_12_NOT",
                 "id": "79be9c71-6617-c26a-aeff-527f21dae21d",
                 "x": 3033.25,
                 "y": 2865.796875,
@@ -950,9 +950,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/NOT.shape"
+                  "file": "digital/gate/IEC60617-12/NOT.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_NOT",
+                "cssClass": "digital_gate_IEC60617_12_NOT",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -961,7 +961,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_AND",
+                "type": "digital_gate_IEC60617_12_AND",
                 "id": "081dd8f1-c04f-9dd3-5654-0bc6f196b54e",
                 "x": 3124.25,
                 "y": 2850.796875,
@@ -972,9 +972,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/AND.shape"
+                  "file": "digital/gate/IEC60617-12/AND.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_AND",
+                "cssClass": "digital_gate_IEC60617_12_AND",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -983,7 +983,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_OR",
+                "type": "digital_gate_IEC60617_12_OR",
                 "id": "406a6432-a1d3-89a3-5d93-b21adb343c2d",
                 "x": 3251.25,
                 "y": 2820.796875,
@@ -994,9 +994,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/OR.shape"
+                  "file": "digital/gate/IEC60617-12/OR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_OR",
+                "cssClass": "digital_gate_IEC60617_12_OR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -1005,7 +1005,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_gate_IEC60617_12_XOR",
+                "type": "digital_gate_IEC60617_12_XOR",
                 "id": "802e6255-ec94-07bc-29a2-b9763bbf9185",
                 "x": 3251.25,
                 "y": 2740.796875,
@@ -1016,9 +1016,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/gate/IEC60617-12/XOR.shape"
+                  "file": "digital/gate/IEC60617-12/XOR.shape"
                 },
-                "cssClass": "circuit_digital_gate_IEC60617_12_XOR",
+                "cssClass": "digital_gate_IEC60617_12_XOR",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -1027,7 +1027,7 @@
                 "labels": []
               },
               {
-                "type": "circuit_digital_buttons_HighLow",
+                "type": "digital_buttons_HighLow",
                 "id": "e79ad3c8-8e57-dae7-5560-64c59bcc989c",
                 "x": 2646.5,
                 "y": 2621.296875,
@@ -1038,9 +1038,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/buttons/HighLow.shape"
+                  "file": "digital/buttons/HighLow.shape"
                 },
-                "cssClass": "circuit_digital_buttons_HighLow",
+                "cssClass": "digital_buttons_HighLow",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -1079,7 +1079,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_buttons_HighLow",
+                "type": "digital_buttons_HighLow",
                 "id": "748d8694-fdbf-e6b7-10ed-955cf507f603",
                 "x": 2646.5,
                 "y": 2692.296875,
@@ -1090,9 +1090,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/buttons/HighLow.shape"
+                  "file": "digital/buttons/HighLow.shape"
                 },
-                "cssClass": "circuit_digital_buttons_HighLow",
+                "cssClass": "digital_buttons_HighLow",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -1131,7 +1131,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_buttons_HighLow",
+                "type": "digital_buttons_HighLow",
                 "id": "4012204e-3f3c-c7e0-4da3-3cd4652a9778",
                 "x": 2646.5,
                 "y": 2749.296875,
@@ -1142,9 +1142,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/buttons/HighLow.shape"
+                  "file": "digital/buttons/HighLow.shape"
                 },
-                "cssClass": "circuit_digital_buttons_HighLow",
+                "cssClass": "digital_buttons_HighLow",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -1183,7 +1183,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_display_Led",
+                "type": "digital_display_Led",
                 "id": "04994b30-ccf6-22ca-7d2f-da7dc83b1c01",
                 "x": 3368.5,
                 "y": 2743.796875,
@@ -1194,9 +1194,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/display/Led.shape"
+                  "file": "digital/display/Led.shape"
                 },
-                "cssClass": "circuit_digital_display_Led",
+                "cssClass": "digital_display_Led",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
@@ -1234,7 +1234,7 @@
                 ]
               },
               {
-                "type": "circuit_digital_display_Led",
+                "type": "digital_display_Led",
                 "id": "7fa18afc-2617-ec2d-a649-28102eabb2ac",
                 "x": 3368.5,
                 "y": 2823.796875,
@@ -1245,9 +1245,9 @@
                 "draggable": true,
                 "angle": 0,
                 "userData": {
-                  "file": "circuit/digital/display/Led.shape"
+                  "file": "digital/display/Led.shape"
                 },
-                "cssClass": "circuit_digital_display_Led",
+                "cssClass": "digital_display_Led",
                 "bgColor": "rgba(0,0,0,0)",
                 "color": "rgba(27,27,27,1)",
                 "stroke": 0,
