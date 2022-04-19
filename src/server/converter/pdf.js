@@ -15,8 +15,8 @@ module.exports = {
         displayHeaderFooter: true,
         printBackground: true,
         footerTemplate: `
-          <div class="pdf-footer" style="color: lightgray; border-top: solid lightgray 1px; font-size: 10px; padding-top: 5px; text-align: center; width: 100%;">
-            Document created with <a href="http://www.electra.academy/" target="_blank">Electra Academy</a> and the powerful <a href="http://www.draw2d.org" target="_blank">Draw2D</a> library ( by Andreas Herz )
+          <div style="color: lightgray; border-top: solid lightgray 1px; font-size: 10px; padding-top: 5px; text-align: center; width: 100%;">
+            Document created with <a style="color: #C71D3D;" href="http://www.electra.academy/" target="_blank">Electra Academy</a> and the powerful <a style="color: #C71D3D;" href="https://github.com/freegroup/draw2d" target="_blank">Draw2D</a> library
           </div>
         `,
         margin: {
