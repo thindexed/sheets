@@ -20,6 +20,8 @@ spec:
         - secretRef:
             name: github-secrets
         env:
+        - name: AUTHOR_URL
+          value: "https://<DOMAIN>/author"
         - name: DATA_DIR
           value: "/app/data/"
         - name: GITHUB_REPO
